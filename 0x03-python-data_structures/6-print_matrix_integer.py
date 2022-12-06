@@ -8,4 +8,5 @@ def print_matrix_integer(matrix=[[]]):
             if j != (len(matrix[i]) - 1):  # $ will have no space
                 print(" ", end="")
 
-                print ("")
+
+        print("")
