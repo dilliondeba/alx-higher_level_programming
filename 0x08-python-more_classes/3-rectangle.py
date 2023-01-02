@@ -2,6 +2,8 @@
 """
 Defines a class Rectangle
 """
+
+
 class Rectangle:
     """Representation of a rectangle"""
     def __init__(self, width=0, height=0):
@@ -24,7 +26,6 @@ class Rectangle:
         self.__width = value
 
     @property
-
     def height(self):
         """getter for the private instance attribute height"""
         return self.__height
